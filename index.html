@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <title> The Charity | Home</title>
 </head>
@@ -13,41 +16,130 @@
 <body>
     <!-- Header Part -->
     <header>
-        <div class="nav-head">
-            <div class="head">
-                <div class="left-side">
-                    <h6>MAIL: rakibzaheen@gmail.com</h6>
-                    <h6>PHONE: +88 0170220002020202</h6>
-                </div>
-                <div class="right-side">
-                    <button class="btn-ghost">Download</button>
+        <div class="bg-[#f5690b]">
+            <div class="max-w-6xl mx-auto">
+                <div class="flex justify-between">
+                    <div class="flex gap-10 text-white p-3">
+                        <h6>MAIL: rakibzaheen@gmail.com</h6>
+                        <h6>PHONE: +88 0170220002020202</h6>
+                    </div>
+                    <div class="flex">
+                        <button class="bg-black text-white p-3">Download</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 max-w-6xl mx-auto">
             <div class="flex-1">
-                <a class="text-xl font-bold">The<span class="text-[#f59e0b]">Charity</span></a>
+                <a class="text-xl font-bold"> <i class="fa-solid fa-heart-crack text-[#f5690b]"></i> The<span
+                        class="text-[#f5690b]">Charity</span></a>
             </div>
             <div class="flex-none">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a href="/index.html" >Home</a></li>
+                    <li><a href="/index.html">Home</a></li>
                     <li><a href="/about.html">About</a></li>
                     <li><a href="/causes.html">Causes</a></li>
-                    <li><a href="/gallery.html" >Gallery</a></li>
-                    <li><a href="/news.html" >News</a></li>
-                    <li><a href="/contact.html" >Contact</a></li>
+                    <li><a href="/gallery.html">Gallery</a></li>
+                    <li><a href="/news.html">News</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <!-- Main Part -->
     <main>
+        <!--Bannse Section -->
+        <div class="hero min-h-screen" style="background-image: url(/Images/children_charity.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-neutral-content">
+                <div class="max-w-6xl mx-auto">
+                    <h1 class="text-7xl font-bold">Donate</h1>
+                    <h1 class="mb-5 text-3xl font-bold">
+                        4 a Better World
+                    </h1>
+                    <p class="mb-5 w-1/2">
+                        In Islam, giving to charity is one of the most rewardable, blessed and noble things one can do.
+                        This is particularly important to remember during hardships and times of financial difficulty.
+                        Prophet Muhammad (saw) said:
+                        “The believer’s shade on the Day of Resurrection will be his charity.” (Ahmad)
+                    </p>
+                    <div class="flex gap-5">
+                        <button type="button"
+                            class="bg-gradient-to-r from-[#f5690b] to-[#f5690bd2] hover:from-blue-500 hover:to-green-500 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg border-none  text-white ">
+                            Donate Now
+                        </button>
+                        <button class="btn btn-outline btn-error btn-xs sm:btn-sm md:btn-md lg:btn-lg">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Card Section -->
+        <div class="flex max-w-6xl mx-auto mt-12 mb-12 gap-5">
+            <div class="card bg-[#f5690b] text-neutral-content w-96">
+                <div class="card-body items-center text-center">
+                    <h2 class="text-5xl"><i class="fa-solid fa-handshake"></i></h2>
+                    <h2 class="card-title">Become a Volunteer</h2>
+                    <p>We are taught in Islam that actions are judged by intention, and so it is the intention,
+                        sincerity and act of giving to charity itself that is valued, far more than the amount given</p>
+                </div>
+            </div>
+            <div class="card bg-slate-400 w-96">
+                <div class="card-body items-center text-center">
+                    <h2 class="text-5xl"><i class="fa-solid fa-hand-holding-heart"></i></h2>
+                    <h2 class="card-title">Dance & Music</h2>
+                    <p>Paying Zakat is therefore compulsory for Muslims, as are the other four pillars: prayer (salah),
+                        fasting (sawm), pilgrimage (Hajj) and belief in Allah and His Messenger, Prophet Muhammad (saw)
+                        (shahadah).</p>
+                </div>
+            </div>
+            <div class="card bg-slate-400 w-96">
+                <div class="card-body items-center text-center">
+                    <h2 class="text-5xl"><i class="fa-solid fa-heart"></i></h2>
+                    <h2 class="card-title">Online Conference</h2>
+                    <p>As Zakat is a percentage, it means each person giving to charity, gives a different amount
+                        depending on their financial situation, and this will also vary year to year.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Banner Sections -->
+        <div>
+            <div class="hero min-h-96" style="background-image: url(/Images/give-international.jpg);">
+                <div class="hero-overlay bg-opacity-90"></div>
+                <div class="hero-content text-neutral-content">
+                    <div class="max-w-6xl mx-auto flex items-center justify-center">
+                        <div class="flex-1 space-y-5">
+                            <h1 class="text-3xl font-bold">WellCome To Our Charity</h1>
+                            <div class="w-10 h-1 bg-yellow-400"></div>
+                            <p class="mb-5">
+                                There is also a specific type of Zakat which is payable by all Muslims – Zakat ul Fitr, or Fitrana. This is a fixed amount that must be paid at the end of Ramadan, before Eid salah. The Zakat ul Fitr amount is based upon the current price of a staple food, such as rice or flour, equivalent to a designated weight, known as a ‘Sa’. Some narrations state that this is the equivalence of two hand-fulls of the item. As the price of food varies each year, the amount you will be giving to charity also varies from year to year.
+                            </p>
+                            <div class="flex gap-5">
+                                <button type="button"
+                                    class="bg-gradient-to-r from-[#f5690b] to-[#f5690bd2] hover:from-blue-500 hover:to-green-500 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg border-none  text-white ">
+                                    Read More
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <img src="/Images/Sc.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
 
     </main>
     <!-- footer part -->
     <footer>
 
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+        integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
